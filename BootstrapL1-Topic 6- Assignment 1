@@ -1,0 +1,66 @@
+<style>
+.divTable{
+	display: table;
+    background-color: black;
+	width: 100%;
+    color:white
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	display: table-header-group;
+    font-weight:bold;
+}
+.divTableCell {
+	border: 1px solid grey;
+    border-style: groove none none none;
+	display: table-cell;
+	padding: 3px 10px;
+}
+
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
+.itemColor {
+color:white;
+}
+
+
+</style>
+
+
+<p>&nbsp;</p>
+<div class="divTable">
+<div class="divTableBody">
+<div class="divTableRow">
+<div class="divTableCell divTableHeading">#</div>
+<div class="divTableCell divTableHeading">First</div>
+<div class="divTableCell divTableHeading">Last</div>
+<div class="divTableCell divTableHeading">Handle</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell"><a href='#' class="itemColor">1</a></div>
+<div class="divTableCell">Mark</div>
+<div class="divTableCell">Otto</div>
+<div class="divTableCell">@mdo</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell"><a href='#' class="itemColor">2</a></div>
+<div class="divTableCell">Jacob</div>
+<div class="divTableCell">Thornton</div>
+<div class="divTableCell">@fat</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell"><a href='#' class="itemColor">3</a></div>
+<div class="divTableCell">Larry</div>
+<div class="divTableCell">the Bird</div>
+<div class="divTableCell">@twitter</div>
+</div>
+</div>
+</div>
