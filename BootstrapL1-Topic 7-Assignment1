@@ -1,0 +1,32 @@
+<html>
+<head>
+<style>
+h1 {
+  border: 5px solid red;
+}
+
+h2 {
+  border: 4px dotted blue;
+}
+
+</style>
+<script>
+function urlEncoder(){
+var url = document.getElementById('input_url').value;
+var ency = encodeURIComponent(url);
+document.getElementById('output').innerHTML = ency;
+}
+</script>
+</head>
+<body>
+
+<p>URI Encoder</p>
+
+<input type='text' id='input_url' value='sdfsdf'></input>
+
+<button onclick={urlEncoder()}>Submit</button>
+<br/>
+<div id='output'></div>
+
+</body>
+</html>
